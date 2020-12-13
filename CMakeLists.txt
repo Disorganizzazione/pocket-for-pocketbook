@@ -10,8 +10,8 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 
-SET (TOOLCHAIN_PATH "../pocketbook-sdk5")			# ?
-SET (TOOLCHAIN_PREFIX "arm-obreey-linux-gnueabi")	# ?
+SET (TOOLCHAIN_PATH "../pocketbook-sdk5")		
+SET (TOOLCHAIN_PREFIX "arm-obreey-linux-gnueabi")
 SET (TOOLCHAIN_INSTALL "sysroot/usr")
 ADD_DEFINITIONS(-DPLATFORM_FC)
 
